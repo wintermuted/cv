@@ -1,0 +1,592 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Jameson Nyeholt</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+	
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px; 
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}	
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
+
+	</style>
+	
+	</head>
+	<body>
+	
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						Jameson Nyeholt
+					</h1>
+					<h2>
+						Software Engineer
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email"><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="0c666d61697f636222627569646360784c6b616d6560226f6361">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">
+/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("data-cfhash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}t.parentNode.removeChild(t);}}catch(u){}}()/* ]]> */</script></div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Phone</strong>
+				<div class="phone">(909) 753-9621</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Website</strong>
+				<div class="website">
+					<a href="http://www.jamesonnyeholt.com">http://www.jamesonnyeholt.com</a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>About</h3>
+		</aside>
+		<div class="col-sm-9">
+			<p>I am Software Engineer living and working in beautiful Portland, Oregon with my wife Rachel &amp; our dog Sophie, where we live out the dream of the 90&#x27;s.  I currently work at Jama Software, where along with an amazing team of cross-functional engineers, I develop software tools for managing product development.  In my free time, I geek out on functional programming, IoT, transit mapping services, and mobile/wearable devices.  When I manage to escape the warm glow of a computer terminal, I enjoy camping, hiking, cooking, making cocktails, and a long list of stereotypically nerdy activities.</p>
+		</div>
+	</section>
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						Twitter
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="http://www.twitter.com/jwnyeholt">jwnyeholt</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						Github
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="http://www.github.com/wintermuted">wintermuted</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						LinkedIn
+					</strong>
+						<div class="url">
+							<a href="http://www.linkedin.com/in/jwnyeholt">http://www.linkedin.com/in/jwnyeholt</a>
+						</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Jama Software</span>
+					<span class="date">
+						2015-01-12 — 
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.jamasoftware.com">http://www.jamasoftware.com</a>
+				</div>
+				<div class="position">
+					Mid-Level Software Engineer
+				</div>
+				<div class="summary">
+					<p>At Jama I work with a cross-functional team of software engineers, where I work in both the front-end and backend, programming in Javascript &amp; Java.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Worked alongside a team to develop features that improved ease of use in managing data, managing test steps, viewing system health, and navigating rule-based item relationships.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Snapflow</span>
+					<span class="date">
+						2013-04-12 — 2014-12-31
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.snapflow.com">http://www.snapflow.com</a>
+				</div>
+				<div class="position">
+					Front End Engineer
+				</div>
+				<div class="summary">
+					<p>At Snapflow I worked on the development of a single-page web application using the Angular.js framework, utilizing RESTFUL API&#x27;s to build out complex user interfaces for Snapflow&#x27;s SaaS application building service.  During my tenure, I helped transition projects &amp; new hires between tulmutuous periods of growth &amp; contraction.  The company is now defunct.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Kept progress of front-end development steady during a hire-up period after the departure of senior engineers.</li>
+					<li class="bullet">Assisted in technical screening &amp; interviews of software engineering candidates for both the Portland-based team, and a near-shore team in Mexico.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>10th Degree</span>
+					<span class="date">
+						2012-06-01 — 2013-04-08
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.10thdegree.com/">http://www.10thdegree.com/</a>
+				</div>
+				<div class="position">
+					Front End Developer
+				</div>
+				<div class="summary">
+					<p>10TH DEGREE is an online advertising agency with an integrated team of creative technologists offering a full-range of digital capabilities &amp; automotive marketing. Advertising agencies move people to take action and our job as your agency is to create ad campaigns that deliver exceptional results, then, make them better.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Associated Students, Inc.</span>
+					<span class="date">
+						2011-05-01 — 2012-05-30
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.asicsulb.org">http://www.asicsulb.org</a>
+				</div>
+				<div class="position">
+					CMS Integration Project Manager &amp; Applications Support
+				</div>
+				<div class="summary">
+					<p>Served as a liaison between OrgSync, Inc., Associated Students, Inc., and the Office of Student Life &amp; Development as the primary project manager for the implementation of OrgSync&#x27;s community management software at the California State University, Long Beach.  In my capacity as project manager, I was charged with providing technical support and aiding in the integration of the software into the workflow of several departments.</p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="volunteer" class="row">
+		<aside class="col-sm-3">
+			<h3>Volunteer</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>PDX Code Community</span>
+					<span class="date">
+						2015-10-01 — 2015-12-30
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.pdxcode.community">http://www.pdxcode.community</a>
+				</div>
+				<div class="position">
+					Mentor
+				</div>
+				<div class="summary">
+					<p>Helped mentor &amp; assist former students of the Portland Code School complete their final projects after the school was abruptly closed without notice.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Helped the Project Pencil group move thir application forward, by providing code reviews and design feedback. https://github.com/Karandashnik/Project-Pencil</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>OSCON</span>
+					<span class="date">
+						2015-05-01 — 2015-05-01
+					</span>
+				</h4>
+				<div class="area">
+					Software
+				</div>
+				<div class="studyType">
+					Open Source Software
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>California State University, Long Beach</span>
+					<span class="date">
+						2007-08-27 — 2012-05-15
+					</span>
+				</h4>
+				<div class="area">
+					Political Science, Law Politics &amp; Policy
+				</div>
+				<div class="studyType">
+					Bachelor of Arts with Honors
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Web Development</h4>
+				</div>
+				<ul class="keywords">
+					<li>Responsive Design</li>
+					<li>Progressive Enhancement</li>
+					<li>HTML5</li>
+					<li>SASS</li>
+					<li>CSS3</li>
+					<li>LESS</li>
+					<li>SMACCS</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Software Engineering</h4>
+				</div>
+				<ul class="keywords">
+					<li>Functional Programming</li>
+					<li>OOP</li>
+					<li>Agile Processes</li>
+					<li>RESTFUL API</li>
+					<li>Test-Driven Development</li>
+					<li>SOLID</li>
+					<li>MVC</li>
+					<li>Flux Architecture</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Java</h4>
+				</div>
+				<ul class="keywords">
+					<li>Sprint</li>
+					<li>Hibernate</li>
+					<li>Jersey</li>
+					<li>Maven</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Javascript</h4>
+				</div>
+				<ul class="keywords">
+					<li>Node</li>
+					<li>ES6</li>
+					<li>Angular.js</li>
+					<li>React.js</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Bash</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Databases</h4>
+				</div>
+				<ul class="keywords">
+					<li>MySQL</li>
+					<li>PostgreSQL</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Source Control</h4>
+				</div>
+				<ul class="keywords">
+					<li>Git</li>
+					<li>Mercurial</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="languages" class="row">
+		<aside class="col-sm-3">
+			<h3>Languages</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>English</strong>
+				</div>
+				<div class="fluency">
+					Native speaker
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>Spanish</strong>
+				</div>
+				<div class="fluency">
+					Elementary Proficiency
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="interests" class="row">
+		<aside class="col-sm-3">
+			<h3>Interests</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Camping</h4>
+				</div>
+				<ul class="keywords">
+					<li>camping</li>
+					<li>outdoors</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Legos</h4>
+				</div>
+				<ul class="keywords">
+					<li>lego</li>
+					<li>models</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Internet of Things</h4>
+				</div>
+				<ul class="keywords">
+					<li>Smart Homes</li>
+					<li>Arduino</li>
+					<li>Raspberry Pi</li>
+					<li>Automation</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+
+	</div>
+	
+	</body>
+</html>

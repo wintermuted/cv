@@ -1,129 +1,200 @@
 {
-  "basics": {
-    "name": "Jameson Nyeholt",
-    "label": "Software Engineer",
-    "picture": "",
-    "email": "jameson.nyeholt@gmail.com",
-    "phone": "(909) 753-9621",
-    "website": "http://jamesonnyeholt.com",
-    "summary": "I am Software Engineer living and working in beautiful Portland, Oregon with my wife Rachel & our dog Sophie, where we live out the dream of the 90's.  I currently work at Jama Software, where along with an amazing team of cross-functional engineers, I develop software tools for managing product development.  In my free time, I geek out on functional programming, IoT, transit mapping services, and mobile/wearable devices.  When I manage to escape the warm glow of a computer terminal, I enjoy camping, hiking, cooking, making cocktails, and a long list of stereotypically nerdy activities.",
-    "location": {
-      "address": "3034 SW Flower Terrace",
-      "postalCode": "OR 97239",
-      "city": "Portland",
-      "countryCode": "US",
-      "region": "Oregon"
+    "basics": {
+        "name": "Jameson Nyeholt",
+        "label": "Software Engineer",
+        "picture": "picture.jpg",
+        "email": "jameson.nyeholt@gmail.com",
+        "phone": "(909) 753-9621",
+        "website": "http://www.jamesonnyeholt.com",
+        "summary": "I am Software Engineer living and working in beautiful Portland, Oregon with my wife Rachel & our dog Sophie, where we live out the dream of the 90's.  I currently work at Jama Software, where along with an amazing team of cross-functional engineers, I develop software tools for managing product development.  In my free time, I geek out on functional programming, IoT, transit mapping services, and mobile/wearable devices.  When I manage to escape the warm glow of a computer terminal, I enjoy camping, hiking, cooking, making cocktails, and a long list of stereotypically nerdy activities.",
+        "location": {
+            "address": "3034 SW Flower Terrace",
+            "postalCode": "OR 97239",
+            "city": "Portland",
+            "countryCode": "US",
+            "region": "Oregon"
+        },
+        "profiles": [
+            {
+                "network": "Twitter",
+                "username": "jwnyeholt",
+                "url": "http://www.twitter.com/jwnyeholt"
+            },
+            {
+                "network": "Github",
+                "username": "wintermuted",
+                "url": "http://www.github.com/wintermuted"
+            },
+            {
+                "network": "LinkedIn",
+                "url": "http://www.linkedin.com/in/jwnyeholt"
+            }
+        ]
     },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "jwnyeholt",
-        "url": "https://twitter.com/jwnyeholt"
-      },
-      {
-        "network": "Github",
-        "username": "wintermuted",
-        "url": "https://github.com/wintermuted"
-      },
-      {
-        "network": "LinkedIn",
-        "url": "https://www.linkedin.com/in/jwnyeholt"
-      }
+    "work": [
+        {
+            "company": "Jama Software",
+            "position": "Mid-Level Software Engineer",
+            "website": "http://www.jamasoftware.com",
+            "startDate": "2015-01-12",
+            "summary": "At Jama I work with a cross-functional team of software engineers, where I work in both the front-end and backend, programming in Javascript & Java.",
+            "highlights": [
+                "Worked alongside a team to develop features that improved ease of use in managing data, managing test steps, viewing system health, and navigating rule-based item relationships."
+            ]
+        },
+        {
+            "company": "Snapflow",
+            "position": "Front End Engineer",
+            "website": "http://www.snapflow.com",
+            "startDate": "2013-04-12",
+            "endDate": "2014-12-31",
+            "summary": "At Snapflow I worked on the development of a single-page web application using the Angular.js framework, utilizing RESTFUL API's to build out complex user interfaces for Snapflow's SaaS application building service.  During my tenure, I helped transition projects & new hires between tulmutuous periods of growth & contraction.  The company is now defunct.",
+            "highlights": [
+                "Kept progress of front-end development steady during a hire-up period after the departure of senior engineers.",
+                "Assisted in technical screening & interviews of software engineering candidates for both the Portland-based team, and a near-shore team in Mexico."
+            ]
+        },
+        {
+            "company": "10th Degree",
+            "position": "Front End Developer",
+            "website": "http://www.10thdegree.com/",
+            "startDate": "2012-06-01",
+            "endDate": "2013-04-08",
+            "summary": "10TH DEGREE is an online advertising agency with an integrated team of creative technologists offering a full-range of digital capabilities & automotive marketing. Advertising agencies move people to take action and our job as your agency is to create ad campaigns that deliver exceptional results, then, make them better."
+        },
+        {
+            "company": "Associated Students, Inc.",
+            "position": "CMS Integration Project Manager & Applications Support",
+            "website": "http://www.asicsulb.org",
+            "startDate": "2011-05-01",
+            "endDate": "2012-05-30",
+            "summary": "Served as a liaison between OrgSync, Inc., Associated Students, Inc., and the Office of Student Life & Development as the primary project manager for the implementation of OrgSync's community management software at the California State University, Long Beach.  In my capacity as project manager, I was charged with providing technical support and aiding in the integration of the software into the workflow of several departments."
+        }
+    ],
+    "education": [
+        {
+            "institution": "OSCON",
+            "area": "Software",
+            "studyType": "Open Source Software",
+            "startDate": "2015-05-01",
+            "endDate": "2015-05-01"
+        },
+        {
+            "institution": "California State University, Long Beach",
+            "area": "Political Science, Law Politics & Policy",
+            "studyType": "Bachelor of Arts with Honors",
+            "startDate": "2007-08-27",
+            "endDate": "2012-05-15"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Web Development",
+            "keywords": [
+                "Responsive Design",
+                "Progressive Enhancement",
+                "HTML5",
+                "SASS",
+                "CSS3",
+                "LESS",
+                "SMACCS"
+            ]
+        },
+        {
+            "name": "Software Engineering",
+            "keywords": [
+                "Functional Programming",
+                "OOP",
+                "Agile Processes",
+                "RESTFUL API",
+                "Test-Driven Development",
+                "SOLID",
+                "MVC",
+                "Flux Architecture"
+            ]
+        },
+        {
+            "name": "Java",
+            "keywords": [
+                "Sprint",
+                "Hibernate",
+                "Jersey",
+                "Maven"
+            ]
+        },
+        {
+            "name": "Javascript",
+            "keywords": [
+                "Node",
+                "ES6",
+                "Angular.js",
+                "React.js"
+            ]
+        },
+        {
+            "name": "Bash"
+        },
+        {
+          "name": "Databases",
+          "keywords": [
+            "MySQL",
+            "PostgreSQL"
+          ]
+        },
+        {
+            "name": "Source Control",
+            "keywords": [
+                "Git",
+                "Mercurial"
+            ]
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "PDX Code Community",
+            "position": "Mentor",
+            "website": "http://www.pdxcode.community",
+            "startDate": "2015-10-01",
+            "endDate": "2015-12-30",
+            "summary": "Helped mentor & assist former students of the Portland Code School complete their final projects after the school was abruptly closed without notice.",
+            "highlights": [
+                "Helped the Project Pencil group move thir application forward, by providing code reviews and design feedback. https://github.com/Karandashnik/Project-Pencil"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Native speaker"
+        },
+        {
+            "language": "Spanish",
+            "fluency": "Elementary Proficiency"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Camping",
+            "keywords": [
+                "camping",
+                "outdoors"
+            ]
+        },
+        {
+            "name": "Legos",
+            "keywords": [
+                "lego",
+                "models"
+            ]
+        },
+        {
+            "name": "Internet of Things",
+            "keywords": [
+                "Smart Homes",
+                "Arduino",
+                "Raspberry Pi",
+                "Automation"
+            ]
+        }
     ]
-  },
-  "work": [
-    {
-      "company": "Jama Software",
-      "position": "Mid-Level Software Engineer",
-      "website": "http://jamasoftware.com",
-      "startDate": "2015-01-12",
-      "summary": "Jama Software develops a modern requirements management software solution for complex systems development.",
-      "highlights": [
-        "Worked alongside a team to develop features that improved ease of use in managing data, managing test steps, viewing system health, and navigating rule-based item relationships."
-      ]
-    },
-    {
-      "company": "Snapflow",
-      "position": "Front End Engineer",
-      "website": "http://snapflow.com",
-      "startDate": "2013-04-12",
-      "endDate": "2014-12-31",
-      "summary": "Snapflow empowers developers to rapidly build and deploy mobile apps that are enterprise secure, real-time, and massively scalable. Whether you are building an internally-facing productivity app or a high touch customer-facing app your team can focus on creating a great user experience and forget server maintenance and complex infrastructure.",
-      "highlights": [
-        "Worked alongside a team of .NET engineers to build out user interfaces.",
-        "Assisted in technical screening of new candidates."
-      ]
-    },
-    {
-      "company": "10th Degree",
-      "position": "Front End Developer",
-      "website": "http://www.10thdegree.com/",
-      "startDate": "2012-06-01",
-      "endDate": "2014-04-08",
-      "summary": "10TH DEGREE is an online advertising agency with an integrated team of creative technologists offering a full-range of digital capabilities & automotive marketing. Advertising agencies move people to take action and our job as your agency is to create ad campaigns that deliver exceptional results, then, make them better."
-    }
-  ],
-  "education": [
-    {
-      "institution": "California State University, Long Beach",
-      "area": "Political Science",
-      "studyType": "Bachelor",
-      "startDate": "2007-08-27",
-      "endDate": "2012-05-15"
-    }
-  ],
-  "skills": [
-    {
-      "name": "Web Development",
-      "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
-      ]
-    },
-    {
-      "name": "Java",
-      "level": "Intermediate",
-      "keywords": [
-        "Java",
-        "JVM"
-      ]
-    },
-    {
-      "name": "Javascript",
-      "level": "Master",
-      "keywords": [
-        "js",
-        "javascript",
-        "node"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "Spanish",
-      "fluency": "Elementary Proficiency"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Camping",
-      "keywords": [
-        "camping",
-        "outdoors"
-      ]
-    },
-    {
-      "name": "Legos",
-      "keywords": [
-        "lego",
-        "models"
-      ]
-    }
-  ]
 }

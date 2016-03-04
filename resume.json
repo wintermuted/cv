@@ -6,7 +6,7 @@
         "email": "jameson.nyeholt@gmail.com",
         "phone": "(909) 753-9621",
         "website": "http://www.jamesonnyeholt.com",
-        "summary": "I am Software Engineer living and working in beautiful Portland, Oregon with my wife Rachel & our dog Sophie, where we live out the dream of the 90's.  I currently work at Jama Software, where along with an amazing team of cross-functional engineers, I develop software tools for managing product development.  In my free time, I geek out on functional programming, IoT, transit mapping services, and mobile/wearable devices.  When I manage to escape the warm glow of a computer terminal, I enjoy camping, hiking, cooking, making cocktails, and a long list of stereotypically nerdy activities.",
+        "summary": "I am Software Engineer living and working in beautiful Portland, Oregon with my wife Rachel & our dog Sophie, where we live out the dream of the 90's. In my free time, I geek out on functional programming, IoT, transit mapping services, and mobile/wearable devices.  When I manage to escape the warm glow of a computer terminal, I enjoy camping, hiking, cooking, making cocktails, and a long list of stereotypically nerdy activities.",
         "location": {
             "address": "3034 SW Flower Terrace",
             "postalCode": "OR 97239",
@@ -27,7 +27,13 @@
             },
             {
                 "network": "LinkedIn",
+                "username": "jwnyeholt",
                 "url": "http://www.linkedin.com/in/jwnyeholt"
+            },
+            {
+              "network": "Instagram",
+              "username": "jamiecakesx",
+              "url": "https://www.instagram.com/jamiecakesx"
             }
         ]
     },
@@ -39,7 +45,11 @@
             "startDate": "2015-01-12",
             "summary": "At Jama I work with a cross-functional team of software engineers, where I work in both the front-end and backend, programming in Javascript & Java.",
             "highlights": [
-                "Worked alongside a team to develop features that improved ease of use in managing data, managing test steps, viewing system health, and navigating rule-based item relationships."
+                "Technologies: Java, Javascript, Python, Ext.js React.js, Maven, Jersey, Spring, SASS, Node.js, Webpack, JUnit, Docker",
+                "Worked alongside a team to develop features that improved ease of use in managing data, managing test steps, viewing system health, and navigating rule-based item relationships.",
+                "Contributed to projects in both a frontend and backend capacity.",
+                "Contributed as a regular participant in the front-end working group— establishing standards and contributing to discussion towards technology adoption.",
+                "Led efforts in developing internal dashboards to measure Key Performance Metrics."
             ]
         },
         {
@@ -50,8 +60,10 @@
             "endDate": "2014-12-31",
             "summary": "At Snapflow I worked on the development of a single-page web application using the Angular.js framework, utilizing RESTFUL API's to build out complex user interfaces for Snapflow's SaaS application building service.  During my tenure, I helped transition projects & new hires between tulmutuous periods of growth & contraction.  The company is now defunct.",
             "highlights": [
-                "Kept progress of front-end development steady during a hire-up period after the departure of senior engineers.",
-                "Assisted in technical screening & interviews of software engineering candidates for both the Portland-based team, and a near-shore team in Mexico."
+                "Technologies: Javascript, Ruby, Scala, Angular.js, Jasmine & Karma, LESS, SASS",
+                "Kept progress of front-end development steady after the departure of senior engineers.",
+                "Assisted in technical screening & interviews of candidates for both the Portland-based team, and a near-shore team in Mexico.",
+                "Developed materials for the technical screening of candidates."
             ]
         },
         {
@@ -60,7 +72,11 @@
             "website": "http://www.10thdegree.com/",
             "startDate": "2012-06-01",
             "endDate": "2013-04-08",
-            "summary": "10TH DEGREE is an online advertising agency with an integrated team of creative technologists offering a full-range of digital capabilities & automotive marketing. Advertising agencies move people to take action and our job as your agency is to create ad campaigns that deliver exceptional results, then, make them better."
+            "summary": "At 10th Degree I built out websites for automotive dealerships & a variety of other clients in need of SEM & SEO optimized websites to advertise theirs businesses.  During my tensure",
+            "highlights": [
+                "Technologies: Javascript, HTML5, CSS3, jQuery, Orchard Project, LESS",
+                "Intervied candidates for development internships at the company."
+            ]
         },
         {
             "company": "Associated Students, Inc.",
@@ -68,16 +84,48 @@
             "website": "http://www.asicsulb.org",
             "startDate": "2011-05-01",
             "endDate": "2012-05-30",
-            "summary": "Served as a liaison between OrgSync, Inc., Associated Students, Inc., and the Office of Student Life & Development as the primary project manager for the implementation of OrgSync's community management software at the California State University, Long Beach.  In my capacity as project manager, I was charged with providing technical support and aiding in the integration of the software into the workflow of several departments."
+            "summary": "Served as a liaison between OrgSync, Inc., Associated Students, Inc., and the Office of Student Life & Development as the primary project manager for the implementation of OrgSync's community management software at the California State University, Long Beach.  In my capacity as project manager, I was charged with providing technical support and aiding in the integration of the software into the workflow of several departments.",
+            "highlights": [
+                "Developed training materials, and held training exercises for students and staff.",
+                "Coordinated technical discussions with univesity staff & OrgSync."
+            ]
         }
     ],
     "education": [
         {
             "institution": "OSCON",
-            "area": "Software",
-            "studyType": "Open Source Software",
+            "area": "Software Engineering",
+            "studyType": "Convention",
             "startDate": "2015-05-01",
             "endDate": "2015-05-01"
+        },
+        {
+            "institution": "Thinkful",
+            "area": "Programming in Swift for iOS",
+            "studyType": "Online Course",
+            "startDate": "2014-10-01",
+            "endDate": "2015-02-30"
+        },
+        {
+            "institution": "PNW Scala Conference",
+            "area": "Programming",
+            "studyType": "Conference",
+            "startDate": "2014-11-01",
+            "endDate": "2014-11-01"
+        },
+        {
+            "institution": "Webvisions Conference PDX",
+            "area": "Web Design & Development",
+            "studyType": "Conference",
+            "startDate": "2014-11-01",
+            "endDate": "2014-11-01"
+        },
+        {
+            "institution": "Edward Tufte Seminar - Presenting Data & Information",
+            "area": "Information Design",
+            "studyType": "Seminar",
+            "startDate": "2014-08-01",
+            "endDate": "2014-08-01"
         },
         {
             "institution": "California State University, Long Beach",
@@ -148,6 +196,15 @@
         },
         {
             "name": "Bash"
+        },
+        {
+            "name": "Scala"
+        },
+        {
+            "name": "Python"
+        },
+        {
+            "name": "Swift"
         }
     ],
     "volunteer": [
@@ -160,6 +217,26 @@
             "summary": "Helped mentor & assist former students of the Portland Code School complete their final projects after the school was abruptly closed without notice.",
             "highlights": [
                 "Helped the Project Pencil group move thir application forward, by providing code reviews and design feedback. https://github.com/Karandashnik/Project-Pencil"
+            ]
+        },
+        {
+            "organization": "New Orleans Area Habitat for Humanity",
+            "position": "Volunteer",
+            "website": "http://www.habitat-nola.org/",
+            "startDate": "2010-04-01",
+            "endDate": "2010-04-15",
+            "summary": "Volunteered for a week in New Orleans helping build houses for families displaced by Hurricane Katrina, as a part of a college course on the Hurrican Katrina disaster."
+        },
+        {
+            "organization": "Los Angeles Superior Court",
+            "position": "Justice Corps Legal Assistant",
+            "website": "http://www.courts.ca.gov/justicecorps.htm",
+            "startDate": "2009-09-01",
+            "endDate": "2010-08-30",
+            "summary": "Helped unrepresented litigants in the Norwalk Courthouse Family law center through the processses in involded in filing for dissolutions & child support actions.",
+            "highlights": [
+                "Gained first hand experience working with clerks, lawyers, and paralegals in the preparation of legal documents for the court.",
+                "Worked with a diverse group of people in eastern Los Angeles Country."
             ]
         }
     ],
